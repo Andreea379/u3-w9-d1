@@ -1,8 +1,8 @@
 const ButtonComponent = (props) => {
   return (
     <div>
-      <button>
-        <p>{props.title}</p>
+      <button style={props.style}>
+        <p style={props.paragrafo}>{props.title}</p>
       </button>
     </div>
   );
